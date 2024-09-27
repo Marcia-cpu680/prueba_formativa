@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario Marcia Gálvez</title>
+    <link rel="stylesheet" href="assets/brootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/brootstrap/js/bootstrap.min.js">
+    
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <img src="assets/brootstrap/img/logo_cft (2).jpg" alt="logo cft" width="80" height="40">
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link comic-font" href="#">Promedio Notas<span class="sr-only">(current)</span></a>
+                
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link comic-font" href="#">Estudiantes</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link comic-font" href="#">Actividades</a>
+                <li class="nav-item dropdown"></li>
+                <a class="nav-link dropdown-toggle comic-font" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Material</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+                <li class="nav-item"></li>
+                <a class="nav-link comic-font" href="#">Ingreso de Notas</a>
+              </li>
+             </ul>
+               </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="buscar la carrera" aria-label="buscar la carrera">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">buscar</button>
+              </form>
+            </div>
+        </nav>
+        <div class="text center">
+            <img src="assets/brootstrap/img/portada.jpeg" class="rounded mx-auto d-block" alt="portada del cft" width="1200" height="500">
+            <br>
+            <div class="container">
+              <p class="text-center comic-font">Si tienes dudas. Usa nuestro formulario de contacto para realizar las preguntas que necesitas. Recuerda que estamos para ayudarte y ofrecerte una educacion de calidad.</p>
+          </div>
+            
+      </div>
+      </div>
+   
+</body>
+<body>
+  <style>
+       .comic-font {
+            font-family: 'Comic Sans MS', cursive, sans-serif; 
+        }
+        .body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .unit-label {
+            text-align: center;
+        }
+        .unit-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .unit {
+            width: 32%;
+        }
+        .unit p {
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+        .unit small {
+            display: block;
+            text-align: center;
+        }
+        .comic-font {
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Aplicar Comic Sans MS */
+        }
+        .form-container {
+            margin-top: 50px; /* Espaciado superior */
+        }
+        .form-title {
+            text-align: center; /* Centrar el título */
+            margin-bottom: 20px; /* Espaciado inferior del título */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container form-container comic-font">
+    <h1 class="form-title">Formulario Notas</h1>
+
+    
+    <form id="noteForm">
+        <div class="mb-3">
+            <input type="text" class="form-control" id="nombre" placeholder="Nombre Completo" required>
+        </div>
+
+        <div class="mb-3">
+            <input type="text" class="form-control" id="asignatura" placeholder="Asignatura" required>
+        </div>
+
+        
+        <div class="unit-container">
+            <div class="unit">
+                <p>Unidad 1</p>
+                <input type="text" class="form-control mb-2" id="nota1" placeholder="Nota 1">
+                <small>12%</small>
+                <input type="text" class="form-control" id="nota2" placeholder="Nota 2">
+                <small>21%</small>
+            </div>
+
+            <div class="unit">
+                <p>Unidad 2</p>
+                <input type="text" class="form-control mb-2" id="nota3" placeholder="Nota 3">
+                <small>12%</small>
+                <input type="text" class="form-control" id="nota4" placeholder="Nota 4">
+                <small>21%</small>
+            </div>
+
+            <div class="unit">
+                <p>Unidad 3</p>
+                <input type="text" class="form-control mb-2" id="nota5" placeholder="Nota 5">
+                <small>13%</small>
+                <input type="text" class="form-control" id="nota6" placeholder="Nota 6">
+                <small>21%</small>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+    </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
